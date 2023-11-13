@@ -9822,3 +9822,15 @@ textarea.form-control {
 	background-image: linear-gradient(to bottom, #374050 0%, #798696 100%);
 	opacity: 0.7;
     }
+
+    .okumu{
+      background-color: limegreen;
+    }
+    @media(max-width:730px){
+      .okumu{
+        background-color: darkblue;
+      }
+      .lincoln{
+        display: none;
+      }
+    }
